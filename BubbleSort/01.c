@@ -48,7 +48,7 @@ void bubble_sort_crescente(int vetor[], int n) {
     int k, j, aux;
 
     for (k = 1; k < n; k++) {
-        for (j = 0; j < n - k; j++) {
+        for (j = 0; j < n - 1; j++) {
             if (vetor[j] > vetor[j + 1]) {
                 aux = vetor[j];
                 vetor[j] = vetor[j + 1];
